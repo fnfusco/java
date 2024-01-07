@@ -1,0 +1,3 @@
+INDEX VERSION 1.134
+C:\OneDrive\¹Organizados\Ensino\¹Concurso\Programacao\ws-eclipse\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3756413272.index
+\115.Date\src

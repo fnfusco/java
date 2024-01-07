@@ -1,0 +1,48 @@
+package entities;
+
+public class Matriz {
+	
+	public Matriz() {
+	}
+	
+	public static void desenhaMatriz() {
+		int[][] matriz = new int[8][8];
+		int l,c;
+		
+		for(l=0;l<matriz.length;l++) {
+			for(c=0; c<matriz.length; c++) {
+				matriz[l][c] = 0;
+				System.out.print(matriz[l][c] + " ");
+			}		
+			System.out.println();	
+		}
+		
+		System.out.println();
+		System.out.println();
+		
+		for(l=0;l<matriz.length;l++) {
+			for(c=0; c<matriz.length; c++) {
+				if (c==1 || c==l) {
+					matriz[l][c] = 1;
+					System.out.print(matriz[l][c] + " ");
+				}
+				else {
+					matriz[l][c] = matriz[l-1][c-1]+matriz[l-1][c];
+					
+				}
+			}
+			System.out.println();
+		}
+		
+		for(l=0;l<matriz.length;l++) {
+			for(c=0; c<matriz.length; c++) {
+				System.out.print(matriz[l][c] + " ");
+			}
+			System.out.println();
+		}
+				
+	}
+	
+}
+
+
