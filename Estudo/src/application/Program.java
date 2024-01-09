@@ -8,7 +8,7 @@ import entities.Ordenacao;
 public class Program {
 
 	public static void main(String[] args) {
-		int valorLimite = 99999*999;
+		int valorLimite = 9999;
 		Ordenacao ordem = new Ordenacao();
 		int[] vetor =  ordem.aleatorio(valorLimite);
 		ordem.bobbleSort(vetor);

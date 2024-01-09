@@ -1,7 +1,0 @@
-INDEX VERSION 1.4+C:\OneDrive\¹Organizados\Ensino\¹Concurso\Programacao\ws-eclipse\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
-1430170937.index
-3861148617.index
-508213556.index
-446845323.index
-3764136674.index
-3412375620.index
